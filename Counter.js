@@ -32,7 +32,6 @@ export default class Counter extends Component {
   };
 
   render() {
-    console.log('.......', this.state);
     const { collection } = this.state;
     return (
       <>
